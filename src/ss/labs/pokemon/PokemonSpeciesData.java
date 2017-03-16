@@ -4,7 +4,7 @@ package ss.labs.pokemon;
  * Created by jerry on 2017/3/1.
  */
 
-public class PokemonSpeciesData // implements Comparable<PokemonSpeciesData>
+public class PokemonSpeciesData implements Comparable<PokemonSpeciesData>
 {
     private int id;
     private String speciesName;
